@@ -39,7 +39,7 @@ namespace GradeBook.GradeBooks
             }
             else
             {
-                return base.GetLetterGrade(averageGrade);
+                return 'F';
             }
         }
     }
